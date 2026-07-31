@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WordpressPerformanceAuditToolkit;
 if (! defined('ABSPATH')) { exit; }
-final class WordpressPerformanceAuditToolkitFeature {
+final class Feature {
     private const OPTION = 'wordpress_performance_audit_toolkit_enabled';
     private const SLUG = 'wordpress-performance-audit-toolkit';
     private const TITLE = 'WordPress Performance Audit Toolkit';
